@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(126, 126, 129);
+}
+header{
+    height: 60px;
+    background-color: yellow;
+    margin-top: 5px;
+
+}
+.container{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    align-items: center;
+   
+}
+.container .box{
+    display: flex;
+    padding: 0 6px;
+}
+.box span{
+   font-size: 30px;
+}
+.box:first-child:hover,.box:nth-child(2):hover{
+    text-decoration: underline;
+}
+
